@@ -1,4 +1,5 @@
 import {test,expect} from vitest
+import {proximo} from './proximo.js';
 test('proximo(0) deve ser 1' , () => {    
 expect(proximo(0)).toBe(1);
 });
